@@ -1,0 +1,117 @@
+.yellow{
+    color: #9E8C6C;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "PT Sans Narrow";
+    letter-spacing: 1px;
+}
+.yellowdesigner{
+    color: #9E8C6C;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    font-family: "PT Sans Narrow";
+    letter-spacing: 2px;
+    display: flex;
+}
+
+.pt-sans-narrow-regular {
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.pt-sans-narrow-bold {
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+.playfair-display{
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+}
+
+#nombre{
+    color: #000000;
+    font-size: 56px;
+    font-family: "Playfair Display";
+    font-weight: 900;
+}
+
+#nombre span{
+    display: block;
+}
+
+.h2{
+    color: #000000;
+    font-size: 36px;
+    font-family: "Playfair Display";
+    font-weight: 900;
+}
+
+p{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "PT Sans Narrow";
+}
+
+b{
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "PT Sans Narrow";
+}
+
+ul{
+    list-style-type: none;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "PT Sans Narrow";
+}
+
+a{
+    display: flex;
+    text-decoration: none;
+    color: #0699A6;
+}
+
+.a-footer{
+    display: flex;
+    text-decoration: none;
+    font-size: 26px;
+    color: #0699A6;
+    line-height: 36px;
+    justify-content: center;
+}
+
+button{
+    width: 225px;
+    height: 60px;
+    color: white;
+    border: none;
+    font-family: "PT Sans Narrow";
+    font-weight: 700;
+    font-size: 18px;
+    background-color: #0699A6;
+    line-height: 24px;
+    letter-spacing: 2px;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#h2footer{
+    font-family: "Playfair Display";
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: -1.14px;
+    display: flex;
+    justify-content: center;
+}
