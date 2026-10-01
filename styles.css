@@ -1,16 +1,36 @@
-.yellow{
+@media (min-width: 768px) {
+
+    header, footer {
+        width: 100%;
+    }
+
+    main section {
+        max-width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    header {
+        clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+    }
+}
+
+.yellow {
     color: #9E8C6C;
     font-size: 18px;
     font-weight: 700;
-    font-family: "PT Sans Narrow";
+    font-family: "PT Sans Narrow", sans-serif;
     letter-spacing: 1px;
 }
-.yellowdesigner{
+
+.yellowdesigner {
     color: #9E8C6C;
     font-size: 14px;
     font-weight: 700;
     line-height: 20px;
-    font-family: "PT Sans Narrow";
+    font-family: "PT Sans Narrow", sans-serif;
     letter-spacing: 2px;
     display: flex;
 }
@@ -27,91 +47,104 @@
     font-style: normal;
 }
 
-
-.playfair-display{
+.playfair-display {
     font-family: "Playfair Display", serif;
     font-optical-sizing: auto;
     font-weight: 900;
     font-style: normal;
 }
 
-#nombre{
+#nombre {
     color: #000000;
     font-size: 56px;
-    font-family: "Playfair Display";
+    font-family: "Playfair Display", serif;
     font-weight: 900;
 }
 
-#nombre span{
+#nombre span {
     display: block;
 }
 
-.h2{
+.h2 {
     color: #000000;
     font-size: 36px;
-    font-family: "Playfair Display";
+    font-family: "Playfair Display", serif;
     font-weight: 900;
 }
 
-p{
+p {
     font-size: 18px;
     font-weight: 400;
-    font-family: "PT Sans Narrow";
+    font-family: "PT Sans Narrow", sans-serif;
 }
 
-b{
+b {
     font-size: 18px;
     font-weight: 700;
-    font-family: "PT Sans Narrow";
+    font-family: "PT Sans Narrow", sans-serif;
 }
 
-ul{
+ul {
     list-style-type: none;
     font-size: 18px;
     font-weight: 400;
-    font-family: "PT Sans Narrow";
+    font-family: "PT Sans Narrow", sans-serif;
+    padding-left: 0; /* Limpia el margen por defecto de las listas */
 }
 
-a{
+a {
     display: flex;
     text-decoration: none;
     color: #0699A6;
 }
 
-.a-footer{
-    display: flex;
-    text-decoration: none;
-    font-size: 26px;
-    color: #0699A6;
-    line-height: 36px;
-    justify-content: center;
-}
-
-button{
+button {
     width: 225px;
     height: 60px;
     color: white;
     border: none;
-    font-family: "PT Sans Narrow";
+    font-family: "PT Sans Narrow", sans-serif;
     font-weight: 700;
     font-size: 18px;
     background-color: #0699A6;
     line-height: 24px;
     letter-spacing: 2px;
+    cursor: pointer; /* Añadido para mejor UX */
 }
 
-header{
+header {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+    background-color: #f4f2ee; 
+    padding: 60px 20px 120px 20px; 
+    clip-path: polygon(0 0, 100% 0, 100% 88%, 0 100%); 
 }
 
-#h2footer{
-    font-family: "Playfair Display";
+#img {
+    display: flex;
+    justify-content: center;
+}
+
+#h2footer {
+    font-family: "Playfair Display", serif;
     font-size: 40px;
     line-height: 50px;
     letter-spacing: -1.14px;
+}
+
+.a-footer {
+    text-decoration: none;
+    font-size: 26px;
+    color: #0699A6;
+    line-height: 36px;
+    font-weight: 900;
+}
+
+footer {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
